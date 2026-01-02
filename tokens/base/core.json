@@ -1,0 +1,130 @@
+{
+  "accent": {
+    "$description": "Brand accents — magenta burns, teal signals",
+    "magenta": {
+      "$description": "Power, danger, keywords, errors — the heart's fire",
+      "value": "#e20074"
+    },
+    "magentaMuted": {
+      "$description": "Softened magenta for less aggressive contexts",
+      "value": "#c4146b"
+    },
+    "magentaSubtle": {
+      "$description": "Background-safe magenta for hover states",
+      "value": "#3d1a2f"
+    },
+    "teal": {
+      "$description": "Signal, selection, strings, active states — the calm clarity",
+      "value": "#05f2af"
+    },
+    "tealMuted": {
+      "$description": "Softened teal for secondary emphasis",
+      "value": "#0bbf8a"
+    },
+    "tealSubtle": {
+      "$description": "Background-safe teal for selections",
+      "value": "#0f3d32"
+    }
+  },
+
+  "semantic": {
+    "$description": "Semantic colors — meaning through color",
+    "error": {
+      "$description": "Danger, problems, failures",
+      "value": "#f44747"
+    },
+    "errorSubtle": {
+      "$description": "Error backgrounds",
+      "value": "#5a1d1d"
+    },
+    "warning": {
+      "$description": "Caution, attention needed",
+      "value": "#ffb347"
+    },
+    "warningSubtle": {
+      "$description": "Warning backgrounds",
+      "value": "#4a3a1d"
+    },
+    "success": {
+      "$description": "Confirmation, completion",
+      "value": "#4ec9b0"
+    },
+    "successSubtle": {
+      "$description": "Success backgrounds",
+      "value": "#1d3a32"
+    },
+    "info": {
+      "$description": "Information, hints",
+      "value": "#6cb6ff"
+    },
+    "infoSubtle": {
+      "$description": "Info backgrounds",
+      "value": "#1d2d4a"
+    }
+  },
+
+  "ansi": {
+    "$description": "Terminal ANSI colors — carefully tuned for readability",
+    "black": { "value": "#1a1a1c" },
+    "red": { "value": "#f44747" },
+    "green": { "value": "#4ec9b0" },
+    "yellow": { "value": "#ffb347" },
+    "blue": { "value": "#6cb6ff" },
+    "magenta": { "value": "#e20074" },
+    "cyan": { "value": "#05f2af" },
+    "white": { "value": "#e5e5e7" },
+    "brightBlack": { "value": "#6b6b70" },
+    "brightRed": { "value": "#ff6b6b" },
+    "brightGreen": { "value": "#6ee7c8" },
+    "brightYellow": { "value": "#ffc66d" },
+    "brightBlue": { "value": "#8ecbff" },
+    "brightMagenta": { "value": "#ff4d9d" },
+    "brightCyan": { "value": "#3dffca" },
+    "brightWhite": { "value": "#ffffff" }
+  },
+
+  "git": {
+    "$description": "Git decoration colors",
+    "added": { "value": "#4ec9b0" },
+    "modified": { "value": "#6cb6ff" },
+    "deleted": { "value": "#f44747" },
+    "untracked": { "value": "#7a7a7f" },
+    "ignored": { "value": "#5a5a5f" },
+    "conflict": { "value": "#ffb347" },
+    "submodule": { "value": "#b48ead" }
+  },
+
+  "diff": {
+    "$description": "Diff colors — subtle backgrounds for change visualization",
+    "insertedBg": { "value": "#1d3a2a" },
+    "insertedLine": { "value": "#2d4a3a" },
+    "insertedText": { "value": "#3d6a4a" },
+    "removedBg": { "value": "#3a1d1d" },
+    "removedLine": { "value": "#4a2d2d" },
+    "removedText": { "value": "#6a3d3d" },
+    "diagonalFill": { "value": "#3a3a3f44" }
+  },
+
+  "merge": {
+    "$description": "Merge conflict colors",
+    "current": { "value": "#1d4a3a66" },
+    "currentHeader": { "value": "#1d4a3a99" },
+    "incoming": { "value": "#1d2d4a66" },
+    "incomingHeader": { "value": "#1d2d4a99" },
+    "commonAncestor": { "value": "#4a3a1d66" },
+    "commonAncestorHeader": { "value": "#4a3a1d99" }
+  },
+
+  "chart": {
+    "$description": "Chart colors for data visualization",
+    "blue": { "value": "#6cb6ff" },
+    "green": { "value": "#4ec9b0" },
+    "yellow": { "value": "#ffb347" },
+    "orange": { "value": "#e89b5a" },
+    "red": { "value": "#f44747" },
+    "purple": { "value": "#b48ead" },
+    "foreground": { "value": "#e5e5e7" }
+  },
+
+  "transparent": { "value": "#00000000" }
+}

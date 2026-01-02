@@ -1,0 +1,501 @@
+{
+  "$description": "Erebus Light — ash after the night, paper whites with inked contrast",
+
+  "surface": {
+    "$description": "Surface ladder — clear separation through subtle grey tones",
+    "0": {
+      "$description": "Paper — editor canvas, clean white",
+      "value": "#ffffff"
+    },
+    "1": {
+      "$description": "Shell — sidebars, panels, visible separation",
+      "value": "#f0f0f2"
+    },
+    "2": {
+      "$description": "Recessed — activity bar, tabs, deeper tone",
+      "value": "#e8e8eb"
+    },
+    "3": {
+      "$description": "Container — dropdowns, inputs, quiet depth",
+      "value": "#e0e0e4"
+    },
+    "4": {
+      "$description": "Overlay — modals, command palette, attention layer",
+      "value": "#d8d8dc"
+    },
+    "5": {
+      "$description": "Highlight — selections, focused elements",
+      "value": "#d0d0d4"
+    }
+  },
+
+  "stroke": {
+    "$description": "Borders and dividers — ink-like definition",
+    "subtle": {
+      "$description": "Whisper borders — barely visible",
+      "value": "#0000000a"
+    },
+    "default": {
+      "$description": "Standard borders — quiet structure",
+      "value": "#00000014"
+    },
+    "strong": {
+      "$description": "Emphasis borders — clear lines",
+      "value": "#00000022"
+    },
+    "focus": {
+      "$description": "Focus rings — teal clarity",
+      "value": "#0bbf8a"
+    }
+  },
+
+  "text": {
+    "$description": "Text hierarchy — ink on paper",
+    "high": {
+      "$description": "Primary text — deep ink",
+      "value": "#1a1a1c"
+    },
+    "medium": {
+      "$description": "Secondary text — aged ink",
+      "value": "#505055"
+    },
+    "muted": {
+      "$description": "Tertiary text — faded marks",
+      "value": "#7a7a7f"
+    },
+    "disabled": {
+      "$description": "Disabled text — ghostly",
+      "value": "#a0a0a5"
+    },
+    "link": {
+      "$description": "Links — deeper teal for contrast",
+      "value": "#0a8f6e"
+    },
+    "inverse": {
+      "$description": "Text on accent backgrounds",
+      "value": "#ffffff"
+    }
+  },
+
+  "icon": {
+    "$description": "Icon colors",
+    "default": { "value": "#505055" },
+    "muted": { "value": "#7a7a7f" },
+    "disabled": { "value": "#a0a0a5" },
+    "accent": { "value": "#0a8f6e" }
+  },
+
+  "selection": {
+    "$description": "Selection and highlight states",
+    "background": { "value": "#05f2af44" },
+    "backgroundInactive": { "value": "#05f2af22" },
+    "word": { "value": "#e2007433" },
+    "line": { "value": "#00000008" },
+    "find": { "value": "#ffb34766" },
+    "findHighlight": { "value": "#ffb34733" }
+  },
+
+  "input": {
+    "$description": "Input field colors",
+    "background": { "value": "#ffffff" },
+    "border": { "value": "#00000014" },
+    "borderFocus": { "value": "#0bbf8a" },
+    "placeholder": { "value": "#7a7a7f" }
+  },
+
+  "button": {
+    "$description": "Button colors — magenta commands attention",
+    "primary": {
+      "background": { "value": "#e20074" },
+      "foreground": { "value": "#ffffff" },
+      "hoverBackground": { "value": "#c4146b" },
+      "border": { "value": "#e20074" }
+    },
+    "secondary": {
+      "background": { "value": "#e8e8e8" },
+      "foreground": { "value": "#1a1a1c" },
+      "hoverBackground": { "value": "#e0e0e0" },
+      "border": { "value": "#00000014" }
+    }
+  },
+
+  "badge": {
+    "$description": "Badges and counters",
+    "background": { "value": "#e20074" },
+    "foreground": { "value": "#ffffff" }
+  },
+
+  "scrollbar": {
+    "$description": "Scrollbar colors — subtle presence",
+    "thumb": { "value": "#00000014" },
+    "thumbHover": { "value": "#00000022" },
+    "thumbActive": { "value": "#00000033" }
+  },
+
+  "progressBar": {
+    "$description": "Progress indicators — deeper teal for visibility",
+    "background": { "value": "#0bbf8a" }
+  },
+
+  "editor": {
+    "$description": "Editor-specific colors",
+    "lineHighlight": { "value": "#00000006" },
+    "rangeHighlight": { "value": "#00000008" },
+    "inactiveSelection": { "value": "#05f2af22" },
+    "wordHighlight": { "value": "#00000014" },
+    "wordHighlightStrong": { "value": "#e2007422" },
+    "bracketMatch": { "value": "#0bbf8a66" },
+    "foldBackground": { "value": "#00000008" },
+    "lineNumbers": { "value": "#a0a0a5" },
+    "lineNumbersActive": { "value": "#1a1a1c" },
+    "rulers": { "value": "#00000014" },
+    "whitespace": { "value": "#00000014" },
+    "indentGuide": { "value": "#00000014" },
+    "indentGuideActive": { "value": "#00000033" }
+  },
+
+  "minimap": {
+    "$description": "Minimap colors",
+    "background": { "value": "#fafafa" },
+    "selection": { "value": "#05f2af66" },
+    "find": { "value": "#ffb347cc" },
+    "error": { "value": "#f44747cc" },
+    "warning": { "value": "#ffb347cc" }
+  },
+
+  "gutter": {
+    "$description": "Editor gutter indicators",
+    "added": { "value": "#0a8f6e" },
+    "modified": { "value": "#3d8fd6" },
+    "deleted": { "value": "#d93636" }
+  },
+
+  "bracket": {
+    "$description": "Bracket pair colorization — muted rainbow",
+    "1": { "value": "#c4146b" },
+    "2": { "value": "#0a8f6e" },
+    "3": { "value": "#3d8fd6" },
+    "4": { "value": "#c48530" },
+    "5": { "value": "#8a6bae" },
+    "6": { "value": "#0bbf8a" },
+    "unexpectedBracket": { "value": "#d93636" }
+  },
+
+  "debug": {
+    "$description": "Debug colors",
+    "toolbar": { "value": "#e8e8e8" },
+    "breakpoint": { "value": "#e20074" },
+    "breakpointDisabled": { "value": "#a0a0a5" },
+    "stackFrame": { "value": "#ffb34733" },
+    "stackFrameFocused": { "value": "#ffb34766" },
+    "exceptionWidget": { "value": "#fdd8d8" }
+  },
+
+  "terminal": {
+    "$description": "Terminal colors",
+    "background": { "value": "#fafafa" },
+    "foreground": { "value": "#1a1a1c" },
+    "cursor": { "value": "#0a8f6e" },
+    "cursorAccent": { "value": "#ffffff" },
+    "selectionBackground": { "value": "#05f2af44" }
+  },
+
+  "notification": {
+    "$description": "Notifications",
+    "background": { "value": "#f5f5f5" },
+    "foreground": { "value": "#1a1a1c" },
+    "border": { "value": "#00000014" }
+  },
+
+  "statusBar": {
+    "$description": "Status bar — quiet informant with separation",
+    "background": { "value": "#e8e8eb" },
+    "foreground": { "value": "#505055" },
+    "border": { "value": "#00000018" },
+    "debugging": { "value": "#e20074" },
+    "noFolder": { "value": "#e0e0e4" },
+    "remote": { "value": "#0a8f6e" }
+  },
+
+  "titleBar": {
+    "$description": "Title bar — defined separation",
+    "activeBackground": { "value": "#e8e8eb" },
+    "activeForeground": { "value": "#1a1a1c" },
+    "inactiveBackground": { "value": "#e8e8eb" },
+    "inactiveForeground": { "value": "#7a7a7f" },
+    "border": { "value": "#00000018" }
+  },
+
+  "activityBar": {
+    "$description": "Activity bar — elevated sentinel with tonal separation",
+    "background": { "value": "#e0e0e4" },
+    "foreground": { "value": "#1a1a1c" },
+    "inactiveForeground": { "value": "#7a7a7f" },
+    "activeBorder": { "value": "#0a8f6e" },
+    "badge": { "value": "#e20074" },
+    "badgeForeground": { "value": "#ffffff" },
+    "border": { "value": "#00000010" }
+  },
+
+  "sideBar": {
+    "$description": "Side bar — the foundation with visible separation",
+    "background": { "value": "#f0f0f2" },
+    "foreground": { "value": "#505055" },
+    "border": { "value": "#00000018" },
+    "sectionHeader": { "value": "#e8e8eb" }
+  },
+
+  "panel": {
+    "$description": "Bottom panel",
+    "background": { "value": "#f5f5f5" },
+    "border": { "value": "#00000014" }
+  },
+
+  "tab": {
+    "$description": "Editor tabs",
+    "activeBackground": { "value": "#fafafa" },
+    "activeForeground": { "value": "#1a1a1c" },
+    "activeBorder": { "value": "#0a8f6e" },
+    "inactiveBackground": { "value": "#eeeeee" },
+    "inactiveForeground": { "value": "#7a7a7f" },
+    "unfocusedActiveBackground": { "value": "#fafafa" },
+    "unfocusedActiveForeground": { "value": "#505055" },
+    "hoverBackground": { "value": "#f5f5f5" },
+    "border": { "value": "#00000014" }
+  },
+
+  "breadcrumb": {
+    "$description": "Breadcrumb navigation",
+    "foreground": { "value": "#505055" },
+    "focusForeground": { "value": "#1a1a1c" },
+    "activeSelectionForeground": { "value": "#1a1a1c" },
+    "background": { "value": "#fafafa" }
+  },
+
+  "list": {
+    "$description": "Lists and trees",
+    "activeSelectionBackground": { "value": "#05f2af33" },
+    "activeSelectionForeground": { "value": "#1a1a1c" },
+    "focusBackground": { "value": "#00000014" },
+    "focusForeground": { "value": "#1a1a1c" },
+    "focusOutline": { "value": "#0bbf8a" },
+    "hoverBackground": { "value": "#0000000a" },
+    "hoverForeground": { "value": "#1a1a1c" },
+    "inactiveSelectionBackground": { "value": "#00000014" },
+    "inactiveSelectionForeground": { "value": "#1a1a1c" },
+    "highlightForeground": { "value": "#0a8f6e" },
+    "errorForeground": { "value": "#d93636" },
+    "warningForeground": { "value": "#c48530" },
+    "filterMatch": { "value": "#e2007444" },
+    "dropBackground": { "value": "#05f2af22" }
+  },
+
+  "menu": {
+    "$description": "Menus",
+    "background": { "value": "#f5f5f5" },
+    "foreground": { "value": "#1a1a1c" },
+    "selectionBackground": { "value": "#05f2af33" },
+    "selectionForeground": { "value": "#1a1a1c" },
+    "separatorBackground": { "value": "#00000014" },
+    "border": { "value": "#00000014" }
+  },
+
+  "quickInput": {
+    "$description": "Quick input and command palette",
+    "background": { "value": "#f5f5f5" },
+    "foreground": { "value": "#1a1a1c" }
+  },
+
+  "pickerGroup": {
+    "$description": "Picker groups",
+    "border": { "value": "#00000014" },
+    "foreground": { "value": "#0a8f6e" }
+  },
+
+  "editorGroup": {
+    "$description": "Editor group",
+    "border": { "value": "#00000014" },
+    "dropBackground": { "value": "#05f2af22" }
+  },
+
+  "editorWidget": {
+    "$description": "Editor widgets (find, suggestions)",
+    "background": { "value": "#f5f5f5" },
+    "foreground": { "value": "#1a1a1c" },
+    "border": { "value": "#00000014" },
+    "resizeBorder": { "value": "#0bbf8a" }
+  },
+
+  "editorSuggestWidget": {
+    "$description": "Autocomplete suggestions",
+    "background": { "value": "#f5f5f5" },
+    "border": { "value": "#00000014" },
+    "foreground": { "value": "#1a1a1c" },
+    "highlightForeground": { "value": "#0a8f6e" },
+    "selectedBackground": { "value": "#05f2af33" },
+    "selectedForeground": { "value": "#1a1a1c" },
+    "focusHighlightForeground": { "value": "#0a8f6e" }
+  },
+
+  "editorHoverWidget": {
+    "$description": "Hover tooltips",
+    "background": { "value": "#f5f5f5" },
+    "foreground": { "value": "#1a1a1c" },
+    "border": { "value": "#00000014" },
+    "highlightForeground": { "value": "#0a8f6e" },
+    "statusBarBackground": { "value": "#eeeeee" }
+  },
+
+  "peekView": {
+    "$description": "Peek view (go to definition)",
+    "border": { "value": "#0a8f6e" },
+    "editorBackground": { "value": "#fafafa" },
+    "editorGutter": { "value": "#f5f5f5" },
+    "editorMatchHighlight": { "value": "#ffb34766" },
+    "resultBackground": { "value": "#f5f5f5" },
+    "resultFileForeground": { "value": "#1a1a1c" },
+    "resultLineForeground": { "value": "#505055" },
+    "resultMatchHighlight": { "value": "#ffb34766" },
+    "resultSelectionBackground": { "value": "#05f2af33" },
+    "resultSelectionForeground": { "value": "#1a1a1c" },
+    "titleBackground": { "value": "#eeeeee" },
+    "titleDescription": { "value": "#505055" },
+    "titleLabel": { "value": "#1a1a1c" }
+  },
+
+  "settings": {
+    "$description": "Settings editor",
+    "headerForeground": { "value": "#1a1a1c" },
+    "modifiedBackground": { "value": "#05f2af26" },
+    "focusedRowBackground": { "value": "#0000000a" },
+    "focusedRowBorder": { "value": "#0bbf8a66" },
+    "checkboxBackground": { "value": "#ffffff" },
+    "checkboxBorder": { "value": "#00000014" },
+    "checkboxForeground": { "value": "#1a1a1c" },
+    "dropdownBackground": { "value": "#ffffff" },
+    "dropdownBorder": { "value": "#00000014" },
+    "dropdownForeground": { "value": "#1a1a1c" },
+    "numberInputBackground": { "value": "#ffffff" },
+    "numberInputBorder": { "value": "#00000014" },
+    "numberInputForeground": { "value": "#1a1a1c" },
+    "textInputBackground": { "value": "#ffffff" },
+    "textInputBorder": { "value": "#00000014" },
+    "textInputForeground": { "value": "#1a1a1c" }
+  },
+
+  "keybinding": {
+    "$description": "Keybinding labels",
+    "background": { "value": "#e8e8e8" },
+    "foreground": { "value": "#1a1a1c" },
+    "border": { "value": "#00000022" }
+  },
+
+  "gitDecoration": {
+    "$description": "Git file decorations — teal for new files, consistent with dark",
+    "addedForeground": { "value": "#0a8f6e" },
+    "modifiedForeground": { "value": "#3d8fd6" },
+    "deletedForeground": { "value": "#d93636" },
+    "untrackedForeground": { "value": "#0a8f6e" },
+    "ignoredForeground": { "value": "#a0a0a5" },
+    "conflictingForeground": { "value": "#c48530" },
+    "submoduleForeground": { "value": "#8a6bae" },
+    "renamedForeground": { "value": "#0a8f6e" },
+    "stageModifiedForeground": { "value": "#3d8fd6" },
+    "stageDeletedForeground": { "value": "#d93636" }
+  },
+
+  "testing": {
+    "$description": "Testing colors",
+    "iconFailed": { "value": "#d93636" },
+    "iconPassed": { "value": "#0a8f6e" },
+    "iconQueued": { "value": "#c48530" },
+    "iconSkipped": { "value": "#7a7a7f" },
+    "iconUnset": { "value": "#7a7a7f" },
+    "iconErrored": { "value": "#d93636" },
+    "runAction": { "value": "#0a8f6e" },
+    "peekBorder": { "value": "#d93636" },
+    "peekHeaderBackground": { "value": "#fdd8d8" }
+  },
+
+  "extensionButton": {
+    "$description": "Extension button colors",
+    "prominentBackground": { "value": "#e20074" },
+    "prominentForeground": { "value": "#ffffff" },
+    "prominentHoverBackground": { "value": "#c4146b" }
+  },
+
+  "welcomePage": {
+    "$description": "Welcome page",
+    "background": { "value": "#fafafa" },
+    "tileBackground": { "value": "#f5f5f5" },
+    "tileHoverBackground": { "value": "#eeeeee" },
+    "tileBorder": { "value": "#00000014" },
+    "progress": { "value": "#0bbf8a" }
+  },
+
+  "walkThrough": {
+    "$description": "Walk through and tutorial",
+    "embeddedEditorBackground": { "value": "#f5f5f5" }
+  },
+
+  "symbolIcon": {
+    "$description": "Symbol icons in outline and breadcrumb — deepened for visibility",
+    "arrayForeground": { "value": "#c48530" },
+    "booleanForeground": { "value": "#3d8fd6" },
+    "classForeground": { "value": "#c48530" },
+    "colorForeground": { "value": "#1a1a1c" },
+    "constantForeground": { "value": "#3d8fd6" },
+    "constructorForeground": { "value": "#8a6bae" },
+    "enumeratorForeground": { "value": "#c48530" },
+    "enumeratorMemberForeground": { "value": "#3d8fd6" },
+    "eventForeground": { "value": "#c48530" },
+    "fieldForeground": { "value": "#3d8fd6" },
+    "fileForeground": { "value": "#1a1a1c" },
+    "folderForeground": { "value": "#1a1a1c" },
+    "functionForeground": { "value": "#8a6bae" },
+    "interfaceForeground": { "value": "#0a8f6e" },
+    "keyForeground": { "value": "#3d8fd6" },
+    "keywordForeground": { "value": "#c4146b" },
+    "methodForeground": { "value": "#8a6bae" },
+    "moduleForeground": { "value": "#1a1a1c" },
+    "namespaceForeground": { "value": "#1a1a1c" },
+    "nullForeground": { "value": "#3d8fd6" },
+    "numberForeground": { "value": "#c48530" },
+    "objectForeground": { "value": "#c48530" },
+    "operatorForeground": { "value": "#1a1a1c" },
+    "packageForeground": { "value": "#1a1a1c" },
+    "propertyForeground": { "value": "#3d8fd6" },
+    "referenceForeground": { "value": "#3d8fd6" },
+    "snippetForeground": { "value": "#1a1a1c" },
+    "stringForeground": { "value": "#0a8f6e" },
+    "structForeground": { "value": "#c48530" },
+    "textForeground": { "value": "#1a1a1c" },
+    "typeParameterForeground": { "value": "#0a8f6e" },
+    "unitForeground": { "value": "#3d8fd6" },
+    "variableForeground": { "value": "#3d8fd6" }
+  },
+
+  "inlineChat": {
+    "$description": "Inline chat colors",
+    "background": { "value": "#f5f5f5" },
+    "border": { "value": "#00000014" },
+    "shadow": { "value": "#00000022" }
+  },
+
+  "chat": {
+    "$description": "Chat view colors",
+    "requestBackground": { "value": "#eeeeee" },
+    "requestBorder": { "value": "#00000014" }
+  },
+
+  "ports": {
+    "$description": "Port forwarding colors",
+    "iconRunning": { "value": "#0a8f6e" }
+  },
+
+  "commentsView": {
+    "$description": "Comments view",
+    "resolvedIcon": { "value": "#a0a0a5" },
+    "unresolvedIcon": { "value": "#0a8f6e" }
+  }
+}

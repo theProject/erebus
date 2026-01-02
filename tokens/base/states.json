@@ -1,0 +1,39 @@
+{
+  "state": {
+    "$description": "Interactive states — the breath of the interface",
+
+    "hover": {
+      "$description": "Hover overlay",
+      "value": "#ffffff0a"
+    },
+
+    "focus": {
+      "$description": "Focus overlay",
+      "value": "#ffffff14"
+    },
+
+    "active": {
+      "$description": "Active/pressed overlay",
+      "value": "#ffffff1f"
+    },
+
+    "selected": {
+      "$description": "Selection background",
+      "value": "#ffffff14"
+    }
+  },
+
+  "shadow": {
+    "$description": "Shadows — depth without drama",
+    "widget": {
+      "value": "#00000066"
+    },
+    "scrollbar": {
+      "value": "#00000066"
+    }
+  },
+
+  "transparent": {
+    "value": "#00000000"
+  }
+}

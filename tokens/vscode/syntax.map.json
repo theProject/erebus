@@ -1,0 +1,345 @@
+{
+  "$description": "Syntax highlighting tokens — restrained color, meaningful accents",
+
+  "syntax": {
+    "$description": "Semantic syntax colors - accents reserved for structure, neutrals for content",
+
+    "comment": {
+      "$description": "Comments — whispers in the margins",
+      "value": "{text.muted}",
+      "fontStyle": "italic"
+    },
+    "comment.documentation": {
+      "$description": "Documentation comments",
+      "value": "{text.muted}",
+      "fontStyle": "italic"
+    },
+
+    "string": {
+      "$description": "Strings — muted teal, readable data",
+      "value": "{accent.tealMuted}"
+    },
+    "string.template": {
+      "$description": "Template strings",
+      "value": "{accent.tealMuted}"
+    },
+    "string.regexp": {
+      "$description": "Regular expressions — pattern magic",
+      "value": "{accent.tealMuted}"
+    },
+    "string.escape": {
+      "$description": "Escape sequences — subtle emphasis",
+      "value": "{text.high}",
+      "fontStyle": "bold"
+    },
+
+    "constant": {
+      "$description": "Constants — immutable truths",
+      "value": "{semantic.info}"
+    },
+    "constant.numeric": {
+      "$description": "Numbers — the concrete",
+      "value": "{semantic.warning}"
+    },
+    "constant.language": {
+      "$description": "Language constants (true, false, null)",
+      "value": "{semantic.info}"
+    },
+    "constant.character": {
+      "$description": "Character constants",
+      "value": "{accent.tealMuted}"
+    },
+    "constant.other": {
+      "$description": "Other constants",
+      "value": "{semantic.info}"
+    },
+
+    "variable": {
+      "$description": "Variables — containers of meaning",
+      "value": "{text.high}"
+    },
+    "variable.parameter": {
+      "$description": "Function parameters",
+      "value": "{text.high}",
+      "fontStyle": "italic"
+    },
+    "variable.other.constant": {
+      "$description": "Constant variables",
+      "value": "{semantic.info}"
+    },
+    "variable.language": {
+      "$description": "Language variables (this, self) — subtle magenta",
+      "value": "{accent.magentaMuted}",
+      "fontStyle": "italic"
+    },
+    "variable.other.property": {
+      "$description": "Object properties",
+      "value": "{text.high}"
+    },
+
+    "keyword": {
+      "$description": "Keywords — the power words, magenta authority",
+      "value": "{accent.magenta}"
+    },
+    "keyword.control": {
+      "$description": "Control keywords (if, else, return)",
+      "value": "{accent.magenta}"
+    },
+    "keyword.operator": {
+      "$description": "Operator keywords",
+      "value": "{text.high}"
+    },
+    "keyword.other": {
+      "$description": "Other keywords — softer",
+      "value": "{accent.magentaMuted}"
+    },
+
+    "storage": {
+      "$description": "Storage — declarations of intent",
+      "value": "{accent.magenta}"
+    },
+    "storage.type": {
+      "$description": "Type storage (class, function, var)",
+      "value": "{accent.magenta}"
+    },
+    "storage.modifier": {
+      "$description": "Modifiers (public, private, static) — softer",
+      "value": "{accent.magentaMuted}"
+    },
+
+    "entity.name": {
+      "$description": "Named entities",
+      "value": "{text.high}"
+    },
+    "entity.name.function": {
+      "$description": "Function names — action definitions",
+      "value": "{chart.purple}"
+    },
+    "entity.name.class": {
+      "$description": "Class names — structures of thought",
+      "value": "{semantic.warning}"
+    },
+    "entity.name.type": {
+      "$description": "Type names",
+      "value": "{semantic.success}"
+    },
+    "entity.name.tag": {
+      "$description": "Tag names (HTML, XML) — softer magenta",
+      "value": "{accent.magentaMuted}"
+    },
+    "entity.name.section": {
+      "$description": "Section names (markdown headers) — neutral bold",
+      "value": "{text.high}",
+      "fontStyle": "bold"
+    },
+    "entity.other.attribute-name": {
+      "$description": "Attribute names",
+      "value": "{semantic.warning}"
+    },
+    "entity.other.inherited-class": {
+      "$description": "Inherited class names",
+      "value": "{semantic.success}",
+      "fontStyle": "italic"
+    },
+
+    "support": {
+      "$description": "Support — the ecosystem",
+      "value": "{text.high}"
+    },
+    "support.function": {
+      "$description": "Built-in functions",
+      "value": "{chart.purple}"
+    },
+    "support.class": {
+      "$description": "Built-in classes",
+      "value": "{semantic.warning}"
+    },
+    "support.type": {
+      "$description": "Built-in types",
+      "value": "{semantic.success}"
+    },
+    "support.constant": {
+      "$description": "Built-in constants",
+      "value": "{semantic.info}"
+    },
+    "support.variable": {
+      "$description": "Built-in variables",
+      "value": "{text.high}"
+    },
+
+    "punctuation": {
+      "$description": "Punctuation — the rhythm",
+      "value": "{text.medium}"
+    },
+    "punctuation.definition.string": {
+      "$description": "String delimiters — match strings",
+      "value": "{accent.tealMuted}"
+    },
+    "punctuation.definition.comment": {
+      "$description": "Comment markers",
+      "value": "{text.muted}"
+    },
+    "punctuation.definition.tag": {
+      "$description": "Tag brackets",
+      "value": "{text.medium}"
+    },
+    "punctuation.separator": {
+      "$description": "Separators",
+      "value": "{text.medium}"
+    },
+    "punctuation.terminator": {
+      "$description": "Statement terminators",
+      "value": "{text.medium}"
+    },
+    "punctuation.accessor": {
+      "$description": "Property accessors",
+      "value": "{text.medium}"
+    },
+
+    "meta.function-call": {
+      "$description": "Function calls",
+      "value": "{chart.purple}"
+    },
+    "meta.class": {
+      "$description": "Class definitions",
+      "value": "{text.high}"
+    },
+    "meta.type": {
+      "$description": "Type annotations",
+      "value": "{semantic.success}"
+    },
+    "meta.return-type": {
+      "$description": "Return type annotations",
+      "value": "{semantic.success}"
+    },
+    "meta.decorator": {
+      "$description": "Decorators",
+      "value": "{semantic.warning}",
+      "fontStyle": "italic"
+    },
+    "meta.import": {
+      "$description": "Import statements",
+      "value": "{text.high}"
+    },
+    "meta.export": {
+      "$description": "Export statements",
+      "value": "{text.high}"
+    },
+    "meta.object-literal.key": {
+      "$description": "Object literal keys",
+      "value": "{text.high}"
+    },
+    "meta.template.expression": {
+      "$description": "Template expressions",
+      "value": "{text.high}"
+    },
+    "meta.embedded": {
+      "$description": "Embedded code",
+      "value": "{text.high}"
+    },
+    "meta.brace": {
+      "$description": "Braces",
+      "value": "{text.medium}"
+    },
+
+    "invalid": {
+      "$description": "Invalid code",
+      "value": "{semantic.error}",
+      "fontStyle": "strikethrough"
+    },
+    "invalid.deprecated": {
+      "$description": "Deprecated code",
+      "value": "{semantic.warning}",
+      "fontStyle": "strikethrough"
+    },
+
+    "markup.heading": {
+      "$description": "Headings — neutral bold, not colored",
+      "value": "{text.high}",
+      "fontStyle": "bold"
+    },
+    "markup.bold": {
+      "$description": "Bold text",
+      "value": "{text.high}",
+      "fontStyle": "bold"
+    },
+    "markup.italic": {
+      "$description": "Italic text",
+      "value": "{text.high}",
+      "fontStyle": "italic"
+    },
+    "markup.underline": {
+      "$description": "Underlined text",
+      "value": "{text.high}",
+      "fontStyle": "underline"
+    },
+    "markup.strikethrough": {
+      "$description": "Strikethrough text",
+      "value": "{text.muted}",
+      "fontStyle": "strikethrough"
+    },
+    "markup.quote": {
+      "$description": "Quoted text — subtle, not teal",
+      "value": "{text.medium}",
+      "fontStyle": "italic"
+    },
+    "markup.list": {
+      "$description": "List markers — neutral",
+      "value": "{text.medium}"
+    },
+    "markup.raw": {
+      "$description": "Raw/code blocks — subtle teal",
+      "value": "{accent.tealMuted}"
+    },
+    "markup.inline.raw": {
+      "$description": "Inline code — subtle teal",
+      "value": "{accent.tealMuted}"
+    },
+    "markup.link": {
+      "$description": "Links",
+      "value": "{text.link}"
+    },
+    "markup.link.text": {
+      "$description": "Link text",
+      "value": "{text.link}"
+    },
+    "markup.inserted": {
+      "$description": "Inserted text (diff)",
+      "value": "{semantic.success}"
+    },
+    "markup.deleted": {
+      "$description": "Deleted text (diff)",
+      "value": "{semantic.error}"
+    },
+    "markup.changed": {
+      "$description": "Changed text (diff)",
+      "value": "{semantic.info}"
+    },
+
+    "source": {
+      "$description": "Source code",
+      "value": "{text.high}"
+    },
+    "source.json": {
+      "$description": "JSON source",
+      "value": "{text.high}"
+    },
+
+    "token.info-token": {
+      "$description": "Info tokens",
+      "value": "{semantic.info}"
+    },
+    "token.warn-token": {
+      "$description": "Warning tokens",
+      "value": "{semantic.warning}"
+    },
+    "token.error-token": {
+      "$description": "Error tokens",
+      "value": "{semantic.error}"
+    },
+    "token.debug-token": {
+      "$description": "Debug tokens",
+      "value": "{chart.purple}"
+    }
+  }
+}
